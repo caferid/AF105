@@ -115,12 +115,11 @@ hr + h3 {
   from {
     left: 0;
     bottom: 0;
-    transform: rotate(-45deg);
   }
   to {
     left: calc(100% - 50px);
     bottom: 0;
-    transform: rotate(-135deg);
+    transform: rotateY(180deg);
   }
 }
 .card {
@@ -140,7 +139,7 @@ hr + h3 {
   animation-duration: 2s;
   animation-iteration-count: infinite;
   /* animation-direction: alternate; */
-  animation-fill-mode: forwards;
+  /* animation-fill-mode: forwards; */
   animation-timing-function: linear;
 }
 .card img:hover {
